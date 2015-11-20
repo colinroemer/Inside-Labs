@@ -1,0 +1,539 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inside Labs</title>
+
+	<meta charset="UTF-8">
+	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+</head>
+<body>
+
+	<!-- Nav -->
+	<div class="content">
+		<header>
+			<nav>
+				<a href="sparkSomething.html" class="largeMenuTitle">JWT INSIDE</a>
+				<a href="#" class="largeMenuTitle addSpark">Spark Something</a>
+				<a href="makeSomething.html" class="largeMenuTitle">Make Something</a>
+				<a href="#"class="smallMenuTitle">Help</a>
+				<a href="#"class="smallMenuTitle">Logout</a>
+			</nav>
+
+			<!--<img src="img/JWT_INSIDE_ATL_horizontal.jpg">-->
+		</header>
+		<div class="sparkSomethingDD">
+			<h2 class="titleAddSpark">Add a Spark</h2>
+			<form action="" method="">
+				<label for="category">Select a category</label>
+				<select class="select"name="category" id="addSparkCategory">
+					<option>Select</option>
+					<option value="technology">Technology</option>
+					<option value="tranding">Branding</option>
+					<option value="culture">Culture</option>
+					<option value="tactical">Tactical</option>
+					<option value="misc">Miscellaneous</option>
+				</select>
+				<button class="addSparkDDButton">Thought</button>
+				<button class="addSparkDDButton">Qoute</button>
+				<button class="addSparkDDButton">Link</button>
+				<button class="addSparkDDButton">PDF</button>
+				<button class="addSparkDDButton">Image</button>
+				<button class="addSparkDDButton">Video</button>
+				<input class="addSparkInput" type="input" id="addSparkTitle" placeholder="Title" />
+				<input class="addSparkInput" type="input" id="addSparkClient" placeholder="Clients" />
+				<textarea class="addSparkInput" id="addSparkDescription" />Description</textarea>
+				<div>
+					<a href="#" class="submitSpark">Submit</a>
+				</div>
+			</form>
+		</div>
+		<div class="navDropdown">
+			<div class="navSections">
+				<section class="navDD leftHalf">
+					<p>Sparks are little bits of inspiration. The start of an idea. it can be an interesting article, video, or website, a client challenge, a thought you had in the shower</p>
+					<div>
+						<a href="#" class="navAddSpark addSpark">Spark Something</a>
+					</div>
+				</section>
+				
+				<section class="navDD rightHalf">
+					<h2>Search for a spark</h2>
+					<form action="" method="">
+						<label for="category">Take a look through other sparks</label>
+						<select class="select"name="category" id="category">
+							<option>Select</option>
+							<option id="technology">Technology</option>
+							<option id="tranding">Branding</option>
+							<option id="culture">Culture</option>
+							<option id="tactical">Tactical</option>
+							<option id="misc">Miscellaneous</option>
+						</select>
+						<input class="" type="search" placeholder="Search" />
+						<div>
+							<a href="#" class="searchSpark">Search Sparks</a>
+						</div>
+					</form>
+				</section>
+			</div>
+		</div>
+		
+
+		<!--Start Sparks Section-->
+		<div id="filters">
+			<div class="mainSectionMenu">
+				<button data-filter="*">Show All</button>
+				<button data-filter=".technology">Technology</button>
+				<button data-filter=".branding">Branding</button>
+				<button data-filter=".culture">Culture Development</button>
+				<button data-filter=".tactical">Tactical</button>
+				<button data-filter=".misc">Miscellaneous</button>
+			</div>
+			<div class="isotope">
+				<div class="grid clearfix" id="container" >
+					<div  id="technology" class="technology article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Technology</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="tactical" class="tactical article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Tactical</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="culture" class="culture article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Culture Development</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="tactical" class="tactical article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Tactical</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+				<div  id="branding" class="branding article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Branding</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incidit enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla padunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<div class="social">	
+							<a href="#"class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>	
+
+					<div  id="culture" class="culture article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Culture Development</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nullat enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pat enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pa pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="culture" class="culture article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Culture Development</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>				
+
+					<div  id="technology" class="technology article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Technology</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pat enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pan reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="tactical" class="tactical article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Tactical</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="tactical" class="tactical article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Tactical</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="branding" class="branding article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Branding</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipst enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pat enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla paum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="misc" class="misc article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Miscellaneous</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco t enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla palaboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<div class="social">	
+							<a href="#"class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+				<div  id="branding" class="branding article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Branding</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor int enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pacididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<div class="social">	
+							<a href="#"class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="misc" class="misc article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Miscellaneous</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco t enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla palaboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<div class="social">	
+							<a href="#"class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="misc" class="misc article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Miscellaneous</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco t enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla palaboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<div class="social">	
+							<a href="#"class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>	
+
+					<div  id="culture" class="culture article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Culture Development</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="culture" class="culture article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Culture Development</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="misc" class="misc article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Miscellaneous</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco t enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla palaboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<div class="social">	
+							<a href="#"class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="tactical" class="tactical article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Tactical</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor t enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla paincididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>				
+
+					<div  id="branding" class="branding article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Branding</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<div class="social">	
+							<a href="#"class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="culture" class="culture article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Culture Development</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+
+						<div class="social">	
+							<a href="#" class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="misc" class="misc article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Miscellaneous</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco t enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla palaboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<div class="social">	
+							<a href="#"class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+
+					<div  id="technology" class="technology article oneHalf clearfix isotope-item">
+						<!--Insert Expand Icon-->
+						<!-- Possible Expand Icon Above -->
+						<div class="categoryGroup">
+							<a href="#" class="sparkCat button">Technology</a>
+						</div>
+						<h1>Title</h1>
+						<p>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor it enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pancididunt ut labore et dolore magna aliqua.</span>
+							<span class="hideToggle">... show more</span>
+							<span class="hidden">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+						</p>
+						<div class="social">	
+							<a href="#"class="socialbutton">Like</a>
+							<a href="#" class="socialbutton">*</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Sparks Section-->
+		<!-- Scripts -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="js/main.js"></script>
+
+		<!-- End Scripts -->
+	</div>
+</body>
+</html>

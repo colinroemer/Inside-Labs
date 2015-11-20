@@ -1,0 +1,93 @@
+/* NAV STYLE */
+
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  background: #4FC1E9;
+  font: white;
+  padding: 20px 0px 20px 0px;
+}
+
+nav {
+  max-width: 1200px;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.navDropdown {
+  background: transparent\9;  
+  background:#F9F6F4;
+  overflow: hidden;
+}
+
+.navSections {
+  max-width: 1200px;
+  width: 94%;
+  margin: 0px auto;
+  margin-top: 20px;
+  color: grey;
+  padding: 16px 0px 0px 0px;
+}
+
+.leftHalf {
+	width: 35%;
+	margin: 0 10% 5% 5%;
+	float: left;
+}
+
+.rightHalf {
+	width: 40%;
+	float: left;
+	margin-left: 5%
+}
+
+form {
+	margin-right: 0;
+}
+
+label {
+	font-size: 16px;
+	margin: 10px 0px;
+	padding-right: 1em;
+}
+
+select {
+	font-size: 20px;
+}
+
+input {
+    background: transparent;
+    background: white;
+    outline: none;
+    padding: 5px;
+    color: #DA4453;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px; 
+    border-radius: 5px;
+    margin: 8px 0px 8px 0px;
+
+
+    
+    &[type="search"] {
+      width: 300px;
+      font-weight: 500;
+      font-size: 16px;
+      padding-left: 15px;
+    }
+    
+    &[type="submit"] {
+      overflow: visible;
+      width: 32px;
+      height: 32px;
+      position: absolute;
+      right: 10px;
+      bottom: 15px;
+      font-size: 32px;
+      line-height: 1em;
+    }
+  }
+
+
+
+

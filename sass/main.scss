@@ -1,0 +1,33 @@
+@import 'reset';
+@import 'typography';
+@import 'navStyles';
+@import 'addSpark';
+@import 'gridStyles';
+@import 'button';
+@import 'isotopeFiltering';
+
+
+/* main styles */
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+} 
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}

@@ -1,0 +1,114 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+/*
+------------------------------------------- RESET STYLES ----------------------------------------------------------------
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, em, img, var, ol, ul, li, form, label,
+table, tr, th, td, article, aside, footer, header,
+menu, nav, output, section, summary,
+time, mark, audio, video {
+  font-size: 100%;}
+
+/* TYPOGRAPHIC STYLES */
+body {
+  background: #fff;
+  font-family: Quicksand;
+  margin: 0 auto; }
+
+p {
+  margin: 0 0 60px 0;
+  padding: 0px;
+  color: white;
+  font-size: 28px;
+  text-align: left; }
+
+h1 {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-size: 56px;
+  font-weight: 400;
+  color: white; }
+h2 {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-size: 56px;
+  font-weight: 400;
+  color: black; }
+
+h3 {
+  font-size: 26px;  
+  margin-top: 0px;
+  margin-left: 200px;}
+
+/* NAV STYLE */
+
+nav {
+  max-width: 1200px;
+  width: 94%;
+  margin: 0 auto; 
+  padding-top: 100px; }
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  background: #4FC1E9;
+  padding: 20px 0px 20px 0px; }
+
+/* main styles */
+.main {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 20px;
+  color: grey;
+  padding: 5px 0px 80px 0px;  }
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+
+input {
+  padding: 20px 25px;
+  margin-right: 40px;
+  font-size: 16px;
+  width: 200px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px; }
+
+.signIn {
+  font-size: 20px;
+  background: white;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #4FC1E9;
+  font: bold;
+  padding: 18px 26px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0px 30px;  }
+
+
+img {
+  width: 120px;
+  border: 1px solid grey;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 60px;
+  float: left;
+  overflow: auto;
+  clear: auto; }
+
+section {
+  margin: 100px 0px; }

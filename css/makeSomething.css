@@ -1,0 +1,135 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+/*
+------------------------------------------- RESET STYLES ----------------------------------------------------------------
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, em, img, var, ol, ul, li, form, label,
+table, tr, th, td, article, aside, footer, header,
+menu, nav, output, section, summary,
+time, mark, audio, video {
+  font-size: 100%;}
+
+/* TYPOGRAPHIC STYLES */
+body {
+  background: #fff;
+  font-size: 12px;
+  font-family: Quicksand;
+  text-align: left;
+  line-height: 1;
+  margin-top: 2em;
+  position: relative;
+  margin: 0 auto; }
+
+p {
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left; }
+
+h1 {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-size: 36px;
+  font-weight: 400;
+  color: grey;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 20px;
+  margin-top: 0px; 
+  padding: 10px 10px;
+  border-bottom: .05em solid grey; }
+
+h3 {
+  font-size: 16px;
+  padding: 0px 10px 10px 10px;
+  margin: 0 auto; }
+
+.largeMenuTitle {
+  font-size: 30px;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-right: 50px; }
+  .largeMenuTitle:hover, .largeMenuTitle.active {
+    color: #fff;
+    border-bottom: 3px solid #FFFFFF; }
+
+a .largeMenuTitle:last-child {
+  padding: 40px; }
+
+.smallMenuTitle {
+  font-size: 16px;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-left: 50px;
+  text-align: right;
+  display: inline; }
+  .smallMenuTitle:hover, .smallMenuTitle.active {
+    color: #fff;
+    border-bottom: 3px solid #FFFFFF; }
+
+
+/* NAV STYLE */
+
+nav {
+  max-width: 1200px;
+  width: 94%;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  background: #4FC1E9;
+  font: white;
+  padding: 20px 0px 20px 0px; }
+
+
+
+/* main styles */
+.main {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 20px;
+  color: grey;
+  padding: 5px 0px 80px 0px;  }
+
+.headingBox {
+  background: transparent\9;
+  background: #F9F6F4; }
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+textarea {
+  width: 100%;
+  height: 150px;
+  font-size: 16px;
+  color: grey; 
+  margin-bottom: 20px;}
+
+.submitProposal {
+  font-size: 16px;
+  background: #4FC1E9;
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font: bold;
+  padding: 12px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 2px 0px 4px 0px; 
+  }

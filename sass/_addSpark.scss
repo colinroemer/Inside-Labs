@@ -1,0 +1,85 @@
+  .sparkSomethingDD {
+    //background-color: #81F7D8;
+    background-color: #F9F6F4;
+    padding: 30px;
+    display: none;
+  }
+
+  .titleAddSpark {
+    display: inline-block;
+  }
+
+  .addSparkDDButton {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font: bold;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 1px;
+  drop-shadow: none; }
+
+  .submitSpark {
+  display: inline-block;
+  text-align: center;
+   background: #4FC1E9;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font: bold;
+  font-size: 15px;
+  padding: 10px;
+  width: 200px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 1px; }
+
+  button.addSparkDDButton {
+    display: inline-block;
+    margin-right:-5px;
+    border:  1px solid grey;
+    background-color: #4FC1E9;
+    color: white;
+    padding:  8px 2px;
+  }
+
+  label {
+  font-size: 16px;
+  margin: 10px 0px;
+  padding-right: 1em;
+  clear: right; }
+
+select {
+  font-size: 20px; }
+
+
+input.addSparkInput {
+      max-width: 1200px;
+      background: transparent;
+      background: white;
+      outline: none;
+      padding: 15px;
+      width: 100%;
+      border-radius: 5px;
+      margin: 8px 0px 8px 0px;
+      display: block;
+      font-size: 16px; }
+
+  textarea {
+  background: transparent;
+  background: white;
+  width: 50%;
+  height: 180px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 5px;
+  margin: 8px 0px 8px 0px;
+  font-size: 16px;
+  padding: 3px;
+  }

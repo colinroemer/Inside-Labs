@@ -1,0 +1,52 @@
+/* GRID STYLES */
+
+.mainSection {
+  padding-top: 10px;
+    margin: 0px auto;
+	
+}
+.mainSectionMenu {
+  max-width: 1200px;
+  width: 94%;
+  margin: 0px auto;
+}
+
+div.grid {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.grid {
+	height: auto;
+	overflow: hidden;
+	width: 94.05%;
+	max-width: 1200px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.grid .oneHalf {
+	width:  30%;
+	float: left;
+	height: auto;
+	overflow: hidden;
+  	border: 1px solid #C7C7C7;
+  	margin-bottom: 20px;
+  	margin-top: 20px;
+  	text-align: center;
+  	padding: 4px 6px 10px 6px;
+  	-webkit-border-radius: 30px;
+  	-moz-border-radius: 20px;
+  	border-radius: 20px;	}
+
+.oneHalf {
+	margin: 0 1.5%;
+	}
+
+.hidden {
+	display: none;
+}
+
+.hideToggle {
+	cursor: pointer;
+}
